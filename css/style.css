@@ -1302,7 +1302,7 @@ img,img.scale-with-grid,video{
 .fes7-img,.fes7-img-constr,.fes7-img-cont{
     position:absolute;
     top:0;
-    height:100%;
+    /*height:100%;*/
     overflow:hidden
 }
 .fes7-box h3,.fes8-title-cont-mod h3{
