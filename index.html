@@ -29,9 +29,28 @@
 				a.appendChild(r);
 			})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 		</script>
+
+			<!-- DO NOT MODIFY -->
+		<!-- Quora Pixel Code (JS Helper) -->
+		<script>
+		!function(q,e,v,n,t,s){if(q.qp) return; n=q.qp=function(){n.qp?n.qp.apply(n,arguments):n.queue.push(arguments);}; n.queue=[];t=document.createElement(e);t.async=!0;t.src=v; s=document.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s);}(window, 'script', 'https://a.quora.com/qevents.js');
+		qp('init', 'bde21ecaf9ac41c3b304e8cee05fe68d');
+		qp('track', 'ViewContent');
+		</script>
+		<noscript><img height="1" width="1" style="display:none" src="https://q.quora.com/_/ad/bde21ecaf9ac41c3b304e8cee05fe68d/pixel?tag=ViewContent&noscript=1"/></noscript>
+		<!-- End of Quora Pixel Code -->
+		<script>qp('track', 'Generic');</script>
+		<!-- The below method uses jQuery, but that is not required -->
+		<button id="addToCartButton">Add To Cart</button>
+		<!-- Add event to the button's click handler -->
+		<script type="text/javascript">
+		$('#addToCartButton').click(function() {
+		qp('track', 'Generic'); // Call this function when inline action happens);
+		});
+		</script>
 	
 		<title>Customer Acquisition Intelligence</title>
-	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
 		<meta charset=utf-8 >
 		<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
@@ -166,7 +185,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	                        <a href="pricing.html"><div class="main-menu-title">PRICING</div></a>
 	                      </li>
 						<li>
-	                        <a href="http://bit.ly/2sogmHs"><div class="main-menu-title">SCHEDULE A CALL</div></a>
+	                        <a href="http://bit.ly/2sogmHs"><div class="main-menu-title call">SCHEDULE A CALL</div></a>
 	                        
 	                      </li>
 						
